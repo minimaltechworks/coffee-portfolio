@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="スペシャルティコーヒーのロースター - 最高品質のコーヒー豆を提供">
+    <title>Artisan Coffee Roasters - スペシャルティコーヒーのロースター</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" as="style">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E☕%3C/text%3E%3C/svg%3E">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Meta tags for better SEO and performance -->
+    <meta name="theme-color" content="#8B4513">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Artisan Coffee">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/coffee-portfolio/">
+    <meta property="og:title" content="Artisan Coffee Roasters - スペシャルティコーヒーのロースター">
+    <meta property="og:description" content="最高品質のスペシャルティコーヒー豆を提供するロースター">
+    <meta property="og:image" content="https://yourusername.github.io/coffee-portfolio/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourusername.github.io/coffee-portfolio/">
+    <meta property="twitter:title" content="Artisan Coffee Roasters - スペシャルティコーヒーのロースター">
+    <meta property="twitter:description" content="最高品質のスペシャルティコーヒー豆を提供するロースター">
+    <meta property="twitter:image" content="https://yourusername.github.io/coffee-portfolio/og-image.jpg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Artisan Coffee</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">ホーム</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">私たちについて</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">商品</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">最高品質の<br>スペシャルティコーヒー</h1>
+            <p class="hero-subtitle">選び抜かれたコーヒー豆を丁寧に焙煎し、<br>あなたの日常に特別な一杯を</p>
+            <a href="#products" class="cta-button">商品を見る</a>
+        </div>
+        <div class="hero-image">
+            <div class="coffee-beans"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>私たちのストーリー</h2>
+                    <p>2015年に設立されたArtisan Coffeeは、世界中の最高品質のコーヒー豆を厳選し、伝統的な焙煎技術と現代的なアプローチを融合させて、独特な風味のコーヒーを提供しています。</p>
+                    <p>私たちは単なるコーヒーショップではありません。コーヒー文化の伝道者として、お客様一人ひとりに最高のコーヒー体験をお届けすることを使命としています。</p>
+                </div>
+                <div class="about-image">
+                    <div class="roasting-process"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>おすすめ商品</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="coffee-bag ethiopia"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3>エチオピア イルガチェフェ</h3>
+                        <p class="product-description">フローラルな香りと柑橘系の酸味が特徴的な、エチオピアの名産地のコーヒーです。</p>
+                        <div class="product-details">
+                            <span class="origin">原産地: エチオピア</span>
+                            <span class="roast">焙煎度: ライト</span>
+                        </div>
+                        <div class="product-price">¥2,800</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="coffee-bag colombia"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3>コロンビア スプレモ</h3>
+                        <p class="product-description">バランスの取れた味わいとナッツのような香りが魅力的なコロンビアの高級豆です。</p>
+                        <div class="product-details">
+                            <span class="origin">原産地: コロンビア</span>
+                            <span class="roast">焙煎度: ミディアム</span>
+                        </div>
+                        <div class="product-price">¥2,500</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="coffee-bag guatemala"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3>グアテマラ アンティグア</h3>
+                        <p class="product-description">スモーキーな香りと深いコクが特徴の、グアテマラの火山地帯で育ったコーヒーです。</p>
+                        <div class="product-details">
+                            <span class="origin">原産地: グアテマラ</span>
+                            <span class="roast">焙煎度: ダーク</span>
+                        </div>
+                        <div class="product-price">¥2,600</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>お問い合わせ</h2>
+                    <p>ご質問やご注文は、お気軽にお問い合わせください。</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>住所</h3>
+                            <p>〒150-0001<br>東京都渋谷区神宮前3-5-8</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>電話</h3>
+                            <p>03-1234-5678</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>営業時間</h3>
+                            <p>月〜金: 8:00-20:00<br>土日祝: 9:00-19:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">送信する</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Artisan Coffee</h3>
+                    <p>最高品質のスペシャルティコーヒー</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">ホーム</a>
+                    <a href="#about">私たちについて</a>
+                    <a href="#products">商品</a>
+                    <a href="#contact">お問い合わせ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Artisan Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
